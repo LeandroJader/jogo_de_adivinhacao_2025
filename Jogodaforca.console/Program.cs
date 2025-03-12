@@ -71,13 +71,13 @@
                     else if (numeroDigitado > numeroSecreto)
                     {
                         Console.WriteLine("========================================");
-                        Console.WriteLine("O número digitado é maior que o número secreto.");
+                        Console.WriteLine("O numero secreto e menor que o numero digitado.");
                         Console.WriteLine("========================================");
                     }
                     else
                     {
                         Console.WriteLine("========================================");
-                        Console.WriteLine("O número digitado é menor que o número secreto.");
+                        Console.WriteLine("o numero secreto e maior que o numero digitado.");
                         Console.WriteLine("========================================");
                     }
 
