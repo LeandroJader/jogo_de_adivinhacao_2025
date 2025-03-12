@@ -60,6 +60,3 @@ cd JogoDaAdivinhacao.ConsoleApp
 ```
 dotnet run
 ```
-```
-ola mundo
-````

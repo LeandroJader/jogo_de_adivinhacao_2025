@@ -53,7 +53,9 @@
                     if (numeroDigitado == numeroSecreto)
                     {
                         Console.WriteLine("========================================");
+                        Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine("Parabéns! Você acertou!");
+                        Console.ResetColor();
                         Console.WriteLine("========================================");
 
                         break;
@@ -61,8 +63,10 @@
 
                     if (tentativa == totalDeTentativas)
                     {
-                        Console.WriteLine("========================================"); ;
+                        Console.WriteLine("========================================");
+                        Console.ForegroundColor = ConsoleColor.Red;
                         Console.WriteLine($"Que pena! Você usou todas as tentativas. O número era {numeroSecreto}.");
+                        Console.ResetColor();
                         Console.WriteLine("========================================");
 
                         break;
